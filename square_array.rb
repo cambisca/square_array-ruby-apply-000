@@ -3,8 +3,8 @@ array = [1, 2, 3]
 def square_array(array)
   array.each do |number| 
     number ** 2 
+      new_array == array.collect
   end  
-
 end
 
 #A Note on Return Values
