@@ -3,8 +3,8 @@ array = [1, 2, 3]
 def square_array(array)
   array.each do |number| 
       number ** 2 
+        return array 
   end  
-  array = array.each 
 end
 
 #A Note on Return Values
